@@ -1,0 +1,21 @@
+diff --git a/node_modules/react-datepicker/dist/react-datepicker.css b/node_modules/react-datepicker/dist/react-datepicker.css
+index 8591850..182ebad 100644
+--- a/node_modules/react-datepicker/dist/react-datepicker.css
++++ b/node_modules/react-datepicker/dist/react-datepicker.css
+@@ -609,6 +609,16 @@
+   width: 100%;
+ }
+ 
++.react-datepicker__input-container > input {
++  padding: 12px;
++  width: 140px;
++  border-radius: 4px;
++  border: 1px solid #dee2e6;
++  outline: none;
++  font-size: 18px;
++  height: 25px;
++}
++
+ .react-datepicker__year-read-view,
+ .react-datepicker__month-read-view,
+ .react-datepicker__month-year-read-view {
