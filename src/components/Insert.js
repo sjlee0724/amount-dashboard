@@ -53,6 +53,7 @@ const DescriptionInput = styled.textarea`
   box-sizing: border-box;
   margin-bottom: 10px;
   height: 150px;
+  resize: none;
 `;
 
 const InsertButton = styled.button`
@@ -176,7 +177,7 @@ function Insert() {
     if (showModal === true) {
       setTimeout(() => {
         setShowModal(false);
-      }, 1000);
+      }, 5000);
     }
   }, [showModal]);
 
